@@ -61,11 +61,11 @@ UPay 使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议!
 
 10. 测试商户后台入口：
 
-    > 地址：网址/merchant
-    > 账号：测试商户
-    > 密码：123456
+    * 地址：网址/merchant
+    * 账号：测试商户
+    * 密码：123456 
 
-11. 添加计划任务
+12. 添加计划任务
 
     `统计任务设置为每天凌晨1点执行,其他任务设置每一分钟执行一次`
 
@@ -129,6 +129,7 @@ UPay 使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议!
 
 https://app.upay.ink/payment/index?id=joz4QnND
 
+<img src="https://raw.githubusercontent.com/UPay-USDT/USDT-Payment-Gateway/main/demo-qrcode.png" witdh="160" height="160">
 
 
 ## 联系我们
