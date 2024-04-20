@@ -65,7 +65,7 @@ UPay 使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议!
     * 账号：测试商户
     * 密码：123456 
 
-12. 添加计划任务
+11. 添加计划任务
 
     `统计任务设置为每天凌晨1点执行，其他任务设置每一分钟执行一次`
 
@@ -83,31 +83,31 @@ UPay 使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议!
    * export PATH
    * cd /www/wwwroot/根目录; su -c "php think deal_order" -s /bin/sh www
 
-3. 处理代付
+2. 处理代付
    * #!/bin/bash
    * PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
    * export PATH
    * cd /www/wwwroot/根目录; su -c "php think deal_withdraw" -s /bin/sh www
 
-4. 订单通知
+3. 订单通知
    * #!/bin/bash
    * PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
    * export PATH
    * cd /www/wwwroot/根目录; su -c "php think order_notify" -s /bin/sh www
 
-5. 代付通知
+4. 代付通知
    * #!/bin/bash
    * PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
    * export PATH
    * cd /www/wwwroot/根目录; su -c "php think withdraw_notify" -s /bin/sh www
 
-6. 统计
+5. 统计
    * #!/bin/bash
    * PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
    * export PATH
    * cd /www/wwwroot/根目录; su -c "php think statistics" -s /bin/sh www
 
-7. 处理充值
+6. 处理充值
    * #!/bin/bash
    * PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
    * export PATH
@@ -136,8 +136,6 @@ https://docs.upay.ink/api_v1
 
 
 ## 联系我们
-
-官网：https://upay.ink
-
-Telegram：https://t.me/UPay_ink  (**不提供开源项目技术支持**)
-
+* 官方网站：https://upay.ink
+* Telegram：https://t.me/UPay_ink (不提供开源项目技术支持)
+* Email：upay@popodao.com
