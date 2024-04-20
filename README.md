@@ -131,6 +131,9 @@ https://app.upay.ink/payment/index?id=joz4QnND
 
 <img src="https://raw.githubusercontent.com/UPay-USDT/USDT-Payment-Gateway/main/demo-qrcode.png" witdh="160" height="160">
 
+## API文档
+https://docs.upay.ink/api_v1
+
 
 ## 联系我们
 
