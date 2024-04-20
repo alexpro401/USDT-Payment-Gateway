@@ -142,5 +142,3 @@ https://docs.upay.ink/api_v1
 Telegram：https://t.me/UPay_ink  (**不提供开源项目技术支持**)
 
 Official Telegram group：https://t.me/UPay_Group
-
-Email：hello@upay.ink
