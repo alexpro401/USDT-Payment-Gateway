@@ -127,7 +127,7 @@ UPay 使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议!
 
 ## 项目演示
 
-https://app.upay.ink/payment/index?id=joz4QnND
+https://app.upay.ink/#/payment/index?id=joz4QnND
 
 <img src="https://raw.githubusercontent.com/UPay-USDT/USDT-Payment-Gateway/main/demo-qrcode.png?2" witdh="160" height="160">
 
@@ -137,6 +137,10 @@ https://docs.upay.ink/api_v1
 
 ## 联系我们
 
-https://t.me/UPay_ink  (**不提供开源项目技术支持**)
+官网：https://upay.ink
 
-https://upay.ink
+Telegram：https://t.me/UPay_ink  (**不提供开源项目技术支持**)
+
+Official Telegram group：https://t.me/UPay_Group
+
+Email：hello@upay.ink
