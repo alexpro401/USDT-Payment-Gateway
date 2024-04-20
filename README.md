@@ -8,7 +8,7 @@
 <a href="https://github.com/UPay-USDT/USDT-Payment-Gateway/releases/tag/v1.1.2"><img src="https://img.shields.io/badge/version-v1.1.2-green" alt="version v1.1.2"></a>
 </p>
 
-🇺🇸 [English version](https://github.com/UPay-USDT/USDT-Payment-Gateway/blob/main/README_en.md)
+🇺🇸 [Switch to English version](https://github.com/UPay-USDT/USDT-Payment-Gateway/blob/main/README_en.md)
 
 ## 项目简介
 **UPay**（全称：USDT Payment Gateway）是一个由<code>PHP语言</code>编写的 **USDT** 收款代付系统。提供即时、稳定的 **USDT** 收款服务，支持私有化部署，支持<code>TRC20</code>和<code>ERC20</code>网络。
