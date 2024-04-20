@@ -11,12 +11,12 @@
 🇺🇸 [English version](https://github.com/UPay-USDT/USDT-Payment-Gateway/blob/main/README_en.md)
 
 ## 项目简介
-**UPay**（全称：USDT Payment Gateway）是一个由<code>PHP语言</code>编写的**USDT**收款代付系统，支持私有化部署，支持<code>TRC20</code>和<code>ERC20</code>网络。
+**UPay**（全称：USDT Payment Gateway）是一个由<code>PHP语言</code>编写的 **USDT** 收款代付系统。提供即时、稳定的 **USDT** 收款服务，支持私有化部署，支持<code>TRC20</code>和<code>ERC20</code>网络。
 
 UPay 使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议!
 
 
-
+ 
 ## 项目特点
 
 * 支持私有化部署
@@ -67,7 +67,7 @@ UPay 使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议!
 
 12. 添加计划任务
 
-    `统计任务设置为每天凌晨1点执行,其他任务设置每一分钟执行一次`
+    `统计任务设置为每天凌晨1点执行，其他任务设置每一分钟执行一次`
 
     任务参见下表：
 
@@ -78,40 +78,40 @@ UPay 使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议!
 在宝塔面板的计划任务中添加以下6个任务，建议定时任务的时间间隔为1分钟
 
 1. 处理订单
-   #!/bin/bash
-   PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
-   export PATH
-   cd /www/wwwroot/根目录; su -c "php think deal_order" -s /bin/sh www
+   * #!/bin/bash
+   * PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+   * export PATH
+   * cd /www/wwwroot/根目录; su -c "php think deal_order" -s /bin/sh www
 
-2. 处理代付
-   #!/bin/bash
-   PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
-   export PATH
-   cd /www/wwwroot/根目录; su -c "php think deal_withdraw" -s /bin/sh www
+3. 处理代付
+   * #!/bin/bash
+   * PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+   * export PATH
+   * cd /www/wwwroot/根目录; su -c "php think deal_withdraw" -s /bin/sh www
 
-3. 订单通知
-   #!/bin/bash
-   PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
-   export PATH
-   cd /www/wwwroot/根目录; su -c "php think order_notify" -s /bin/sh www
+4. 订单通知
+   * #!/bin/bash
+   * PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+   * export PATH
+   * cd /www/wwwroot/根目录; su -c "php think order_notify" -s /bin/sh www
 
-4. 代付通知
-   #!/bin/bash
-   PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
-   export PATH
-   cd /www/wwwroot/根目录; su -c "php think withdraw_notify" -s /bin/sh www
+5. 代付通知
+   * #!/bin/bash
+   * PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+   * export PATH
+   * cd /www/wwwroot/根目录; su -c "php think withdraw_notify" -s /bin/sh www
 
-5. 统计
-   #!/bin/bash
-   PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
-   export PATH
-   cd /www/wwwroot/根目录; su -c "php think statistics" -s /bin/sh www
+6. 统计
+   * #!/bin/bash
+   * PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+   * export PATH
+   * cd /www/wwwroot/根目录; su -c "php think statistics" -s /bin/sh www
 
-6. 处理充值
-   #!/bin/bash
-   PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
-   export PATH
-   cd /www/wwwroot/根目录; su -c "php think deal_recharge" -s /bin/sh www
+7. 处理充值
+   * #!/bin/bash
+   * PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+   * export PATH
+   * cd /www/wwwroot/根目录; su -c "php think deal_recharge" -s /bin/sh www
 
 
 
@@ -141,4 +141,3 @@ https://docs.upay.ink/api_v1
 
 Telegram：https://t.me/UPay_ink  (**不提供开源项目技术支持**)
 
-Official Telegram group：https://t.me/UPay_Group
