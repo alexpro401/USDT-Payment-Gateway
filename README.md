@@ -139,5 +139,5 @@ https://docs.upay.ink/api_v1
 
 ## 联系我们
 * 官方网站：https://upay.ink
-* Telegram：https://t.me/UPay_ink (不提供开源项目技术支持)
-* Email：upay@popodao.com
+* Telegram：https://t.me/UPay_ink
+* Email：support@UPay.ink
