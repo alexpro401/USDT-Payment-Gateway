@@ -1,4 +1,4 @@
-# Upay (USDT Payment Gateway)
+# UPay (USDT收款支付网关)
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/UPay-USDT/USDT-Payment-Gateway/main/UPay-CN.png?22" witdh="100%" height="auto">
