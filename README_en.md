@@ -1,7 +1,7 @@
 # Upay (USDT Payment Gateway)
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/UPay-USDT/USDT-Payment-Gateway/main/UPay-logo.png" witdh="140" height="140">
+<img src="https://raw.githubusercontent.com/UPay-USDT/USDT-Payment-Gateway/main/UPay-EN.png?22" witdh="100%" height="auto">
 </p>
 <p align="center">
 <a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/license-GPLV3-blue" alt="license GPLV3"></a>
@@ -23,6 +23,15 @@ UPay uses [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) open source license
 * Asynchronous queue response, elegant and high performance.
 * Support USDT risk control system.
 * Powerful back-end financial management system.
+
+* Support privatized deployment.
+* Smart order collision avoidance system.
+* Support merchants to add their own wallet addresses and receive payments directly.
+* Asynchronous queue response, elegant and high performance.
+* Cryptocurrency risk warning system (to prevent merchants from receiving risky cryptocurrencies).
+* Covering the full range of payment scenarios.
+* Real-time exchange of multiple currencies.
+* Powerful backend management system.
 
 ## Install and run the program
 
@@ -114,8 +123,8 @@ https://app.upay.ink/#/payment/index?id=joz4QnND
 https://docs.upay.ink/api_v1/v/en
 
 ## Contact us
-Official Website：https://upay.ink
+Website：https://upay.ink
 
 Telegram：https://t.me/UPay_ink
 
-Email：upay@popodao.com
+Email：support@UPay.ink
