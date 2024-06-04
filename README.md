@@ -1,7 +1,7 @@
 # Upay (USDT Payment Gateway)
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/UPay-USDT/USDT-Payment-Gateway/main/UPay-logo.png" witdh="140" height="140">
+<img src="https://raw.githubusercontent.com/UPay-USDT/USDT-Payment-Gateway/main/UPay-CN.png?22" witdh="100%" height="auto">
 </p>
 <p align="center">
 <a href="https://www.gnu.org/licenses/gpl-3.0.html"><img src="https://img.shields.io/badge/license-GPLV3-blue" alt="license GPLV3"></a>
@@ -20,11 +20,13 @@ UPay 使用 [GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) 开源协议!
 ## 项目特点
 
 * 支持私有化部署
-* 多钱包地址轮询，提高订单并发率
+* 多钱包地址轮询，提高订单撞单率
 * 支持商户添加自己钱包地址，直接收款
 * 异步队列响应，优雅及高性能
-* 支持 USDT 风控系统
-* 强大的后台财务管理系统
+* 加密货币风险预警系统 (避免商户收到黑U或标记U)
+* 覆盖全范围支付场景
+* 多币种实时换
+* 强大的后台管理系统
 
 
 
